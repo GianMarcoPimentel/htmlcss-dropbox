@@ -42,15 +42,26 @@ nav  .login {
     border: dashed 1px blue;
 
     display: flex;
+    align-items: center;
     gap: 20px;
     
+}
+button{
+    background-color: #0061FF;
+    border: #0061FF;
+    color: white;
+
+    padding: 10px;
+}
+button:hover{
+    background-color: darkblue;
 }
 /* Fine nav */
 
 /* Impostazione header */
 header{
     background-color: #B4D0E7;
-    position: relative;
+    
 }
 header .container{
     max-width: 1000px;
@@ -65,6 +76,8 @@ header .container{
     padding: 10px;
 
     
+
+    
 }
 header .container .title{
 width: 100%;
@@ -76,17 +89,28 @@ border: 1px dotted green ;
 header .impaginazione{
     display: flex;
     margin-top: 30px;
+    position: relative;
 }
 header .container .text{
     border: 1px dotted red;
     
     flex-grow: 1;
+    
+}
+header .container .text button {
+    margin: 30px 0px;
 }
 header .container .image{
     border: 2px solid blue;
     width: 60%;
     z-index: 1;
    
+}
+header .container .arrow{
+    font-size: 30px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
 }
 
 /* Fine header */
