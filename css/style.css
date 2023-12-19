@@ -80,9 +80,11 @@ header .container{
     
 }
 header .container .title{
-width: 100%;
+    width: 100%;
 
-border: 1px dotted green ;
+    border: 1px dotted green ;
+
+    font-size: 30px;
 
 
 }
@@ -107,7 +109,7 @@ header .container .image{
    
 }
 header .container .arrow{
-    font-size: 30px;
+    font-size: 20px;
     position: absolute;
     left: 0px;
     bottom: 0px;
