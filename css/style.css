@@ -26,16 +26,20 @@ nav .logo {
     margin-right: 30px;
 }
 
-nav .functions ul{
+nav ul{
     display: flex;
     list-style-type: none;
     gap: 20px;
 
+}
+nav .functions ul .a{
+    text-decoration: none;
 }
 
 nav  .login {
     border: dashed 1px blue;
 
     display: flex;
+    gap: 20px;
     
 }
