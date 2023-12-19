@@ -63,12 +63,15 @@ header{
     background-color: #B4D0E7;
     
 }
-header .container{
+.container{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 
     border: 2px black solid;
+}
+header .container{
+    
     /* test */
     display: flex;
     flex-wrap: wrap;
@@ -246,4 +249,43 @@ main .container-small .fifth-section h2, main .container-small .fifth-section a{
 }
 /* Fine quinta section */
 
+/* Impostazione settima section */
+.bg{
+    background-color: #B4D0E7;
+}
+main .container-small .seventh-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 250px;
+
+   
+}
+main .container-small .seventh-section .larghezza{
+    width: 40%;
+}
+main .container-small .seventh-section .button2{
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;    
+}
+/* Fine settima section */
+
+/* Impostazione ottava section */
+main .container-small .eighth-section h2{
+    margin-bottom: 40px;
+}
+main .container-small .eighth-section hr{
+    margin: 30px 0px;
+}
+main .container-small .eighth-section .domande{
+    display: flex;
+    justify-content: space-around;
+}
+main .container-small .eighth-section .domande i{
+    padding-left:30px ;
+}
+/* Fine ottava section */
 
