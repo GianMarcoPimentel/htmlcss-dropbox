@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 /* Reset */
-body{
-    font-family: 'Open Sans';
-}
 
 /* Impostazione nav */
 nav {
@@ -217,5 +214,25 @@ main .container-small .testo{
     width: 400px;
     height: 400px;
 }
+
+/* Fine terza section */
+
+/* Impostazione quarta section */
+main .container-small .fourth-section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+main .container-small .fourth-section .row{
+    border: 1px dotted blue;
+
+    width: calc( 100% / 3 - 30px );
+    height: 300px;
+
+}
+/* Fine quarta section */
 
 
