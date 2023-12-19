@@ -74,10 +74,6 @@ header .container{
     flex-wrap: wrap;
 
     padding: 10px;
-
-    
-
-    
 }
 header .container .title{
     width: 100%;
@@ -105,7 +101,7 @@ header .container .text button {
 header .container .image{
     border: 2px solid blue;
     width: 60%;
-    z-index: 1;
+
    
 }
 header .container .arrow{
@@ -116,3 +112,56 @@ header .container .arrow{
 }
 
 /* Fine header */
+main .container{
+    border: 2px solid black;
+    /* test */
+
+    margin-top: 40px;
+
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+main .container .chapter{
+    margin-bottom: 40px;
+}
+main .container .buttons{
+    display: flex;
+   margin-bottom: 20px;
+}
+main .container .buttons :nth-child(2){
+    margin-left: 50px;
+}
+
+main .container .column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /*  border: 1px solid red; */
+}
+main .container .column .professional{
+    border: 1px black solid;
+   /*  border-bottom: none; */
+    width: calc(100% / 3 - 20px);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+main .container .column .name{
+}
+main .container .column .advanced{
+    border: 1px black solid;
+    width: calc(100% / 3 - 20px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}main .container .column .enterprise{
+    border: 1px black solid;
+    width: calc(100% / 3 - 20px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
