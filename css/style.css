@@ -5,7 +5,9 @@
 }
 /* Reset */
 
+/* Impostazione nav */
 nav {
+    max-width: 100%;
     border: dashed 1px black;
     padding: 15px;
     /* test */
@@ -43,3 +45,48 @@ nav  .login {
     gap: 20px;
     
 }
+/* Fine nav */
+
+/* Impostazione header */
+header{
+    background-color: #B4D0E7;
+    position: relative;
+}
+header .container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px black solid;
+    /* test */
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 10px;
+
+    
+}
+header .container .title{
+width: 100%;
+
+border: 1px dotted green ;
+
+
+}
+header .impaginazione{
+    display: flex;
+    margin-top: 30px;
+}
+header .container .text{
+    border: 1px dotted red;
+    
+    flex-grow: 1;
+}
+header .container .image{
+    border: 2px solid blue;
+    width: 60%;
+    z-index: 1;
+   
+}
+
+/* Fine header */
