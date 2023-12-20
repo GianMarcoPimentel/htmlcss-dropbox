@@ -316,6 +316,7 @@ header .container .arrow{
 /* Impostazione settima section */
 .bg{
     background-color: #B4D0E7;
+    margin-top: -40px;
 }
 .container-small .seventh-section{
     display: flex;
@@ -323,7 +324,6 @@ header .container .arrow{
     align-items: center;
 
     height: 250px;
-
    
 }
 .container-small .seventh-section .larghezza{
@@ -331,9 +331,9 @@ header .container .arrow{
 }
 .container-small .seventh-section .button2{
     background-color: white;
+    border: white;
     color: black;
-    padding-left: 30px;
-    padding-right: 30px;    
+    padding: 15px 55px;   
 }
 /* Fine settima section */
 
