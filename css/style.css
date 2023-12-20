@@ -348,33 +348,32 @@ header .container .arrow{
 }
 .container-small .eighth-section .domande{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
+
 .container-small .eighth-section .domande i{
-    padding-left:30px ;
+    margin-right: 40px ;
 }
 /* Fine ottava section */
 
 /* Impostazione footer */
 footer {
-    /* background-color: #000000; */
-    color: black;
+    background-color: #000000;
+    color: white;
     width: 100%;
     height: 500px;
     display: flex;
-   justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
-footer .container{
-    width: 1200px;
-    border: 1px green solid;
+footer .container-f{
+    max-width: 1200px;
     display: flex;
-    justify-content: space-between;
 
 }
 footer .footer-top .container .column{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     gap: 40px;
 
 }
@@ -382,6 +381,7 @@ footer .footer-top .container .column .footer-column{
     width: 150px;
     height: 300px;
 
+    justify-content: space-between;
     /* border: 1px dotted blue;
  */
 }
