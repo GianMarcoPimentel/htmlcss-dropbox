@@ -236,7 +236,7 @@ header .container .arrow{
     justify-content: center;
 }
 .container-small .testo h2{
-    line-height: 20px;
+    line-height: 30px;
     margin-bottom: 20px;
 }
 .container-small .testo a{
@@ -264,11 +264,17 @@ header .container .arrow{
     gap: 30px;
 }
 .container-small .fourth-section .row{
-    border: 1px dotted blue;
+    margin-top: 80px;
 
-    width: calc( 100% / 3 - 30px );
-    height: 300px;
+    width: calc( 100% / 3 - 50px / 3 * 2);
 
+}
+.container-small .fourth-section .row img{
+    width: 100%;
+}
+.container-small .fourth-section .row h2{
+    line-height: 30px;
+    margin-bottom: 20px;
 }
 /* Fine quarta section */
 
