@@ -68,7 +68,7 @@ nav  .login {
 
 header{
     background-color: #B4D0E7;
-    
+    margin-bottom: 170px;
 }
 header .container{
     position: relative;
@@ -116,12 +116,15 @@ header .container .arrow{
     margin-top: 80px;
     font-size: 45px;
 }
-
 /* Fine header */
 
+
 /* Impostazione main */
+/* section{
+    margin-bottom:150px ;
+} */
 /* Impostazione prima section */
-main .container-small{
+.container-small{
     border: 2px solid black;
     /* test */
 
@@ -133,42 +136,42 @@ main .container-small{
     
     
 }
-main .container-small .chapter{
+.container-small .chapter{
     margin-bottom: 40px;
 }
-main .container-small .buttons{
+.container-small .buttons{
     display: flex;
    margin-bottom: 20px;
 }
-main .container-small .buttons :nth-child(2){
+.container-small .buttons :nth-child(2){
     margin-left: 50px;
 }
 
-main .container-small .column{
+.container-small .column{
     display: flex;
     justify-content: space-between;
     align-items: center;
    /*  border: 1px solid red; */
 }
-main .container-small .column .professional{
+.container-small .column .professional{
     border: 1px black solid;
    /*  border-bottom: none; */
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 50px * 3 /2);
 
     display: flex;
     align-items: center;
     flex-direction: column;
 
 }
-main .container-small .column .name{
+.container-small .column .name{
 }
-main .container-small .column .advanced{
+.container-small .column .advanced{
     border: 1px black solid;
     width: calc(100% / 3 - 20px);
     display: flex;
     align-items: center;
     flex-direction: column;
-}main .container-small .column .enterprise{
+}.container-small .column .enterprise{
     border: 1px black solid;
     width: calc(100% / 3 - 20px);
     display: flex;
@@ -176,45 +179,51 @@ main .container-small .column .advanced{
     flex-direction: column;
 }
 /* Impostazione seconda section */
-main .container-small .Team{
-    text-align: center;
+.container-small .Team{
+    
+    border: 1px solid #E1E1E3;
+    margin-bottom: 40px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    gap:3px;
 }
-main .container-small .second-section{
-    border: 1px dotted red;
+.container-small .border{
+    border: 1px solid #E1E1E3;
+    margin-top: 50px;
+}
+.container-small .second-section{
     margin: 0px 30px;
+    
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     
 }
-main .container-small .second-section .left{
-    border: 1px dotted green;
-}
-main .container-small .second-section .right{
-    border: 1px dotted green;
-    width: 100px;
-    height: 80px;
-}
-main .container-small .paragraph{
-    border: 1px dotted green;
-    width: auto;
+.container-small .second-section .right a{
+    text-decoration: none;
+} 
+.container-small .paragraph{
+    width: 60%;
     height: 80px;
     margin: 20px 30px;
+    margin-top: 50px;
 }
 
 /* Impostazione terza section */
-main .container-small .third-section{
+.container-small .third-section{
     display: flex;
     padding: 30px;
 }
-main .container-small .photo{
+.container-small .photo{
     border: 1px dotted lightcoral;
     background-color: lightblue;
 
     flex-grow: 1;
 }
-main .container-small .testo{
+.container-small .testo{
     border: 1px dotted lightblue;
     background-color: lightcoral;
     width: 400px;
@@ -224,7 +233,7 @@ main .container-small .testo{
 /* Fine terza section */
 
 /* Impostazione quarta section */
-main .container-small .fourth-section{
+.container-small .fourth-section{
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -232,7 +241,7 @@ main .container-small .fourth-section{
     flex-wrap: wrap;
     gap: 30px;
 }
-main .container-small .fourth-section .row{
+.container-small .fourth-section .row{
     border: 1px dotted blue;
 
     width: calc( 100% / 3 - 30px );
@@ -242,37 +251,37 @@ main .container-small .fourth-section .row{
 /* Fine quarta section */
 
 /* Impostazione quinta section */
-main .container-small .fifth-section{
+.container-small .fifth-section{
     width: 40%;
     /* height: 200px; */
     border: 1px black dotted;
 }
-main .container-small .fifth-section h2, main .container-small .fifth-section a{
+.container-small .fifth-section h2, .container-small .fifth-section a{
     margin-bottom: 40px;
 }
 /* Fine quinta section */
 
 /* Impostazione sesta section : quadrati */
-main #squares {
+#squares {
     
     border: 2px green solid;
     
     display: flex;
     justify-content: space-between;
 }
-main #squares .square-container{
+#squares .square-container{
     border: 1px black dashed;
     width: calc(100vw / 3); /* Con la percentuale non sarei stato in grado di dare un altezza in mmodo che siano quadrati */
     height: calc(100vw / 3); /* Essendo quadrati devono avere stessa larghezza(w) e stessa altezza (h) */
     display: flex;
     flex-wrap: wrap;
 }
-main #squares .square-container .square{
+#squares .square-container .square{
     width: 50%;
     height: 50%;
     border: 4px red solid;
 }
-main #squares :nth-child(2){
+#squares :nth-child(2){
     flex-grow: 1;
 }
 /* Fine sesta section */
@@ -280,7 +289,7 @@ main #squares :nth-child(2){
 .bg{
     background-color: #B4D0E7;
 }
-main .container-small .seventh-section{
+.container-small .seventh-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -289,10 +298,10 @@ main .container-small .seventh-section{
 
    
 }
-main .container-small .seventh-section .larghezza{
+.container-small .seventh-section .larghezza{
     width: 40%;
 }
-main .container-small .seventh-section .button2{
+.container-small .seventh-section .button2{
     background-color: white;
     color: black;
     padding-left: 30px;
@@ -301,17 +310,17 @@ main .container-small .seventh-section .button2{
 /* Fine settima section */
 
 /* Impostazione ottava section */
-main .container-small .eighth-section h2{
+.container-small .eighth-section h2{
     margin-bottom: 40px;
 }
-main .container-small .eighth-section hr{
+.container-small .eighth-section hr{
     margin: 30px 0px;
 }
-main .container-small .eighth-section .domande{
+.container-small .eighth-section .domande{
     display: flex;
     justify-content: space-around;
 }
-main .container-small .eighth-section .domande i{
+.container-small .eighth-section .domande i{
     padding-left:30px ;
 }
 /* Fine ottava section */
