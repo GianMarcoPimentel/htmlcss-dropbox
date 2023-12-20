@@ -30,11 +30,12 @@ nav ul{
     display: flex;
     align-items: center;
     list-style: none;
-    text-decoration: underline;
+    
     gap: 20px;
 }
 nav ul a{
     color: black;
+    text-decoration: none;
 }
 
 nav  .login {
@@ -43,72 +44,77 @@ nav  .login {
     gap: 20px;
     
 }
-button{
+.button{
     background-color: #0061FF;
     border: #0061FF;
     color: white;
 
     padding: 10px;
 }
-button:hover{
+/* button:hover{
     background-color: darkblue;
-}
+} */
 /* Fine nav */
 
 /* Impostazione header */
-header{
-    background-color: #B4D0E7;
-    
-}
 .container{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 
-    border: 2px black solid;
-}
-header .container{
-    
-    /* test */
     display: flex;
     flex-wrap: wrap;
+}
 
-    padding: 10px;
+header{
+    background-color: #B4D0E7;
+    
+}
+header .container{
+    position: relative;
+    bottom: -60px;
 }
 header .container .title{
     width: 100%;
+    padding-top: 100px;
+    
 
-    border: 1px dotted green ;
-
-    font-size: 30px;
-
-
+    font-size: 50px;
 }
 header .impaginazione{
     display: flex;
-    margin-top: 30px;
-    position: relative;
+    margin-top: 80px;
+   /*  margin-top: 30px;
+    position: relative; */
+}
+header .impaginazione .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 34px;
+
+    width: 30%;
 }
 header .container .text{
-    border: 1px dotted red;
-    
     flex-grow: 1;
-    
 }
-header .container .text button {
-    margin: 30px 0px;
+header .container .text{
+    margin-bottom: 35px;
 }
-header .container .image{
-    border: 2px solid blue;
-    width: 60%;
+header a{
+    text-decoration: none;
+}
 
-   
+header .container .image{
+    width: 70%;
 }
+header .container .image img{
+    width: 100%;
+}
+
 header .container .arrow{
-    font-size: 20px;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
+    margin-top: 80px;
+    font-size: 45px;
 }
 
 /* Fine header */
