@@ -8,8 +8,8 @@
 /* Impostazione nav */
 nav {
     max-width: 100%;
-    border: dashed 1px black;
-    padding: 15px;
+    height: 80px;
+    padding: 30px 20px;
     /* test */
     display: flex;
     justify-content: space-between;
@@ -17,31 +17,27 @@ nav {
 }
 
 nav .info {
-    border: dashed 1px red;
     display: flex;
-
-
 }
 nav .logo {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     margin-right: 30px;
 }
 
 nav ul{
     display: flex;
-    list-style-type: none;
-    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    text-decoration: underline;
     gap: 20px;
-
 }
-nav .functions ul .a{
-    text-decoration: none;
+nav ul a{
+    color: black;
 }
 
 nav  .login {
-    border: dashed 1px blue;
-
     display: flex;
     align-items: center;
     gap: 20px;
