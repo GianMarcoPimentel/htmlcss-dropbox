@@ -249,6 +249,30 @@ main .container-small .fifth-section h2, main .container-small .fifth-section a{
 }
 /* Fine quinta section */
 
+/* Impostazione sesta section : quadrati */
+main #squares {
+    
+    border: 2px green solid;
+    
+    display: flex;
+    justify-content: space-between;
+}
+main #squares .square-container{
+    border: 1px black dashed;
+    width: calc(100vw / 3); /* Con la percentuale non sarei stato in grado di dare un altezza in mmodo che siano quadrati */
+    height: calc(100vw / 3); /* Essendo quadrati devono avere stessa larghezza(w) e stessa altezza (h) */
+    display: flex;
+    flex-wrap: wrap;
+}
+main #squares .square-container .square{
+    width: 50%;
+    height: 50%;
+    border: 4px red solid;
+}
+main #squares :nth-child(2){
+    flex-grow: 1;
+}
+/* Fine sesta section */
 /* Impostazione settima section */
 .bg{
     background-color: #B4D0E7;
