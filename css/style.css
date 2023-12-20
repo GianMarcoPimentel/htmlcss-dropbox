@@ -280,9 +280,9 @@ header .container .arrow{
 
 /* Impostazione quinta section */
 .container-small .fifth-section{
+    margin-top: 200px;
+    margin-bottom: 150px;
     width: 40%;
-    /* height: 200px; */
-    border: 1px black dotted;
 }
 .container-small .fifth-section h2, .container-small .fifth-section a{
     margin-bottom: 40px;
