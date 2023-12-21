@@ -325,7 +325,10 @@ header .container .arrow{
     filter: invert(1);
 }
 #squares .square-container .b-square{
+    background-color: #F5F5F5;
     padding: 54px;
+    overflow: auto;
+    height: 100%;
 }
 #squares .square-container .b-square img{
     width: 280px;
@@ -335,6 +338,7 @@ header .container .arrow{
 #squares .square-container .b-square hr{
     width: 20%;
     margin-bottom: 54px;
+    border: solid #EDEDEE;
 }
 #squares .square-container .b-square p{
     margin-bottom: 55px;
