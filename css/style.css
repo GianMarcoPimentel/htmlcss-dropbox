@@ -132,6 +132,7 @@ header .container .arrow{
     
     
 }
+
 .container-small .chapter{
     margin-bottom: 40px;
 }
@@ -139,47 +140,18 @@ header .container .arrow{
     display: flex;
    margin-bottom: 20px;
 }
-.container-small .buttons :nth-child(2){
-    margin-left: 50px;
+.container-small .buttons label{
+    margin-right: 50px;
 }
-
-.container-small .column{
+.business-plan {
+    margin-bottom: 50px;
+}
+.business-plan .row{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-   /*  border: 1px solid red; */
 }
-.container-small .column .container-column{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.container-small .column .professional{
-    border: 1px black solid;
-   /*  border-bottom: none; */
-    width: calc(100% / 3 - 50px * 3 /2);
+/* 
 
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-}
-.container-small .column .name{
-}
-.container-small .column .advanced{
-    border: 1px black solid;
-    width: calc(100% / 3 - 20px);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}.container-small .column .enterprise{
-    border: 1px black solid;
-    width: calc(100% / 3 - 20px);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 /* Impostazione seconda section */
 .container-small .Team{
     
@@ -331,7 +303,8 @@ header .container .arrow{
     height: 100%;
 }
 #squares .square-container .b-square img{
-    width: 280px;
+    max-width: 280px;
+    height: 90px;
     margin-bottom: 54px;
 
 }
@@ -348,16 +321,21 @@ header .container .arrow{
 .bg{
     background-color: #B4D0E7;
 }
+.bg .container-small{
+    margin-top: 0px;
+}
 .container-small .seventh-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     height: 250px;
+    
    
 }
 .container-small .seventh-section .larghezza{
     width: 40%;
+    color: #61082B;
 }
 .container-small .seventh-section .button2{
     background-color: white;
