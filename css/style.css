@@ -150,8 +150,87 @@ header .container .arrow{
     display: flex;
     justify-content: space-between;
 }
-/* 
+.business-plan .row .plan{
+    min-height: 100px;
+    width: calc(100% / 3 - 50px *3 / 2);
+}
+.business-plan .plan{
+    border: 1px solid #dcdcdd;
+}
+.business-plan .plan .plan-title{
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
 
+    border-bottom: 1px solid #dcdcdd;
+}
+.business-plan .plan .plan-list{
+    display: flex;
+    flex-direction: column;
+
+    padding: 38px 28px;
+
+    border: 1px soldi #dcdcdd;
+}
+.business-plan .plan .price{
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 54px;
+}
+.business-plan .plan .price h3{
+    margin-bottom: 24px;
+}
+.business-plan .plan .price strong{
+    margin-bottom: 1em;
+}
+.business-plan .plan .price span{
+    color: gray;
+}
+.business-plan .plan .list{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 54px;
+}
+.business-plan .plan .list .list-row{
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
+.business-plan .plan .list .list-row .fa-solid{
+    padding-top: 2px;
+}
+.business-plan .plan .Button{
+    margin-bottom: 30px;
+}
+.business-plan .plan a:not(.Button){
+    color: #0061ff;
+}
+.business-plan .plan .plan-list > p{
+    margin-bottom: 40px;
+}
+.business-plan .plan .plan-list > hr{
+    width: 25%;
+
+    margin-bottom: 50px;
+}
+.business-plan .plan .important h4{
+    margin-bottom: 30px;
+}
+.business-plan .plan .important .important-row{
+    display: flex;
+    gap: 6px;
+
+    margin-bottom: 25px;
+}
+.business-plan .plan .important .important-row .fa-solid{
+    padding-top: 5px;
+}
+.business-plan .plan .important .important-row .plan-list{
+    flex-direction: row;
+    gap: 65px;
+}
+.business-plan .plan .important .important-row
 /* Impostazione seconda section */
 .container-small .Team{
     
