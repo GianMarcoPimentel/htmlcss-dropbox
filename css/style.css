@@ -51,9 +51,10 @@ nav  .login {
 
     padding: 10px;
 }
-/* button:hover{
+.button:hover{
     background-color: darkblue;
-} */
+    text-decoration: underline;
+}
 /* Fine nav */
 
 /* Impostazione header */
@@ -197,14 +198,38 @@ header .container .arrow{
     align-items: flex-start;
     gap: 6px;
 }
+.business-plan .plan .list a.Button.margin{
+    margin-top: 20px;
+}
 .business-plan .plan .list .list-row .fa-solid{
     padding-top: 2px;
 }
+.business-plan .plan .list .list-row > p{
+    margin-bottom: 4px;
+}
+.business-plan .plan a{
+    text-decoration: none;
+}
+.business-plan .plan p a{
+    text-decoration: underline;
+}
+.business-plan .plan .Button{
+    text-align: center;
+    background-color: #0061FF;
+    border: #0061FF;
+    color: white;
+
+    padding: 10px;
+}
+/* .business-plan .plan a:not(.Button){
+    color: #0061ff;
+} */
 .business-plan .plan .Button{
     margin-bottom: 30px;
+    
 }
-.business-plan .plan a:not(.Button){
-    color: #0061ff;
+.business-plan .plan .Button.margin{
+    margin-top: 20px;
 }
 .business-plan .plan .plan-list > p{
     margin-bottom: 40px;
@@ -319,6 +344,10 @@ header .container .arrow{
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
+}
+.container-small .chapter h2:hover {
+    color: red;
+    text-decoration: underline;
 }
 .container-small .fourth-section .row{
     margin-top: 80px;
@@ -451,13 +480,13 @@ header .container .arrow{
 
 /* Impostazione footer */
 footer {
-    background-color: #000000;
+    background-color: black;
     color: white;
     width: 100%;
     height: 500px;
 }
 footer .footer-top{
-    margin-top: 110px ;
+    padding-top: 110px ;
 }
 footer .footer-list {
     max-width: 1200px;
@@ -469,11 +498,11 @@ footer .footer-list {
     align-items: center ;
 
 }
-footer .footer-top .container .column{
+/* footer .footer-top .container .column{
     display: flex;
     gap: 40px;
 
-}
+} */
 footer .footer-top .container .column .footer-column{
     width: 150px;
     height: 300px;
@@ -488,6 +517,21 @@ footer .footer-top .container .column .footer-column{
     line-height: 30px;
 }
 footer .footer-bottom{
-    border-top: 1px solid gray;
-    padding: 30px opx;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 100px;
 }
+footer .footer-bottom .language{
+   
+    width: 125px;
+    height: 125px;
+    border-top: 1px solid gray;
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3px;
+}
+
